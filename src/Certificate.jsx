@@ -30,7 +30,7 @@ export default function certficateSection() {
             </div>
             <div className="cardsCont grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
 
-                <div className="card bg-gray-800 rounded-lg border-blue-400 border-1 shadow-lg">
+                <div className="card  bg-gray-800 rounded-lg border-blue-400 border-1 shadow-lg">
                     <img src={metacertficate} alt="Food Lover" className='rounded-t-xl' />
                     <div className="p-6">
                         <h3 className="text-xl font-bold text-white">Introduction to Front-End Development</h3>
@@ -40,14 +40,14 @@ export default function certficateSection() {
                             <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Html</span>
                             <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Css</span>
                             <span className="inline-block bg-gray-700 mt-2 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Bootstrap</span>
-                            <a href="https://abdelrhman005.github.io/Food-Lover/?authuser=0" target='_blank' className="mt-4 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
+                            <a href="https://abdelrhman005.github.io/Food-Lover/?authuser=0" target='_blank' className="mt-19 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
                         </div>
                     </div>
 
                 </div>
 
 
-                <div className="card bg-gray-800 rounded-lg border-blue-400 border-1 shadow-lg">
+                <div className="card bg-gray-800 rounded-lg border-blue-400 border-1 shadow-lg ">
                     <img src={Cs50X} alt="Food Lover" className='rounded-t-xl' />
                     <div className="p-6">
                         <h3 className="text-xl font-bold text-white">CS50x by Harvard</h3>
@@ -72,7 +72,8 @@ export default function certficateSection() {
                         <div className="mt-4">
                             <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Responsive Design</span>
                             <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">HTML5</span>
-                            <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2 mt-2">CSS3</span>                            <a href="https://abdelrhman005.github.io/Calm-Nest/" target='_blank' className="mt-4 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
+                            <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2 mt-2">CSS3</span>
+                            <a href="https://abdelrhman005.github.io/Calm-Nest/" target='_blank' className="mt-11  text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
                         </div>
                     </div>
 

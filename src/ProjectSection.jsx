@@ -36,7 +36,7 @@ export default function Example() {
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Html</span>
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Css</span>
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">JavaScript</span>
-                        <a href="https://abdelrhman005.github.io/Food-Lover/?authuser=0" target='_blank' className="mt-4 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
+                        <a href="https://abdelrhman005.github.io/Food-Lover/?authuser=0" target='_blank' className="mt-15 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 ">View Details</a>
                     </div>
                     </div>
                     
@@ -52,7 +52,7 @@ export default function Example() {
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Html</span>
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Css</span>
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">JavaScript</span>
-                        <a href="https://abdelrhman005.github.io/APPEXY/?authuser=0" target='_blank' className="mt-4  text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
+                        <a href="https://abdelrhman005.github.io/APPEXY/?authuser=0" target='_blank' className="mt-15  text-center inline-block bg-transparent w-full border-blue-600 border-2 text-white px-4 py-2 rounded-md">View Details</a>
                     </div>
                     </div>
                     
@@ -69,7 +69,7 @@ export default function Example() {
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">Css</span>
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mr-2">JavaScript</span>
                         <span className="inline-block bg-gray-700 text-white border-blue-600 border-2 px-3 py-1 rounded-full mt-2 mr-2">LocalStorage</span>
-                        <a href="https://abdelrhman005.github.io/Calm-Nest/" target='_blank' className="mt-4 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2 rounded-full">View Details</a>
+                        <a href="https://abdelrhman005.github.io/Calm-Nest/" target='_blank' className="mt-4 text-center inline-block bg-transparent w-full border-blue-600 border-2 rounded-md text-white px-4 py-2">View Details</a>
                     </div>
                     </div>
                     

@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: poppins, sans-serif;
   scroll-behavior: smooth;
 
 }
@@ -28,4 +28,23 @@ body,
   width: 100px;
   height: 4px;
   margin-top: 8px;
+}
+
+.card , .card a, .card span {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(147, 197, 253, 0.1));
+}
+.card a:hover {
+  background: linear-gradient(135deg, rgb(3, 29, 72), rgb(35, 38, 228));
+  color: white;
+}
+
+.card span:hover {
+  background: linear-gradient(135deg, rgb(3, 29, 72), rgb(35, 38, 228));
+  color: white;
 }

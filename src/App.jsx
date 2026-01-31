@@ -3,8 +3,8 @@ import logo from './assets/_.svg';
 import PillNav from './PillNav';
 import TextType from './TextType';
 import AboutSection from "./AboutSection";
-import ProjectSec from "./ProjectSection";
-import Certficate from "./certificate";
+import ProjectSection from "./ProjectSection";
+import Certficatesection from "./certificate";
 import ContactSection from "./contactSection";
 import Footer from "./footer";
 
@@ -18,10 +18,10 @@ const App = () => {
           logo={logo}
           logoAlt="Company Logo"
           items={[
-            { label: 'Who I Am', href: '/' },
-            { label: 'work', href: '/about' },
-            { label: 'Achievements', href: '/services' },
-            { label: 'Let’s Talk', href: '/contact' }
+            { label: 'Who I Am', href: '#about' },
+            { label: 'work', href: '#projects' },
+            { label: 'Achievements', href: '#certificates' },
+            { label: 'Let’s Talk', href: '#contact' }
           ]}
           activeHref="/"
           className="custom-nav fixed justify-self-center"
@@ -134,16 +134,11 @@ const App = () => {
 
         </div>
       </div>
-            <AboutSection />
-
-            <ProjectSec>
-
-            </ProjectSec>
-
-            <Certficate>
-
-            </Certficate>
-            <ContactSection></ContactSection>
+            <AboutSection id="about"></AboutSection>
+            <ProjectSection id="projects" ></ProjectSection>
+            <Certficatesection id="certificates" > 
+            </Certficatesection>
+            <ContactSection id="contact" />
             <Footer></Footer>            
 
     </>

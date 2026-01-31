@@ -25,20 +25,19 @@ export default function Example() {
       </div>
 
       <p className="mx-auto mt-6 max-w-2xl text-center lg:text-md font-medium text-pretty text-gray-400 sm:text-xl/8">
-        I create  responsive, and interactive websites.
+        I create responsive, and interactive websites.
         I specialize in turning ideas into clean, user-friendly digital experiences using HTML, CSS, JavaScript,
         and React.
       </p>
 
-
-      <div className="mx-auto mt-10  text-gray-400 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto mt-10 text-gray-400 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <ElectricBorder
           color="#7df9ff"
           speed={1}
           chaos={0.12}
           thickness={2}
           style={{ borderRadius: 16, height: '300px' }}
-          className="flex flex-col items-center justify-center p-6"
+          className="flex flex-col items-center justify-center p-6 transition-transform transform hover:scale-105"
         >
           <div className='w-full h-full text-center'>
             <img src={codeimg} style={{ margin: 'auto' }} className='w-24 h-24' alt="" />
@@ -55,14 +54,14 @@ export default function Example() {
           chaos={0.12}
           thickness={2}
           style={{ borderRadius: 16, height: '300px' }}
-          className="flex flex-col items-center justify-center p-6"
+          className="flex flex-col items-center justify-center p-6 transition-transform transform hover:scale-105"
         >
           <div className='w-full h-full text-center'>
             <img src={uiimg} style={{ margin: 'auto' }} className='w-24 h-24' alt="" />
             <h2 className='text-white font-bold mt-2' style={{ margin: '6px 0 0' }}>
               Creative UI/UX Designer
             </h2>
-            <p className='mt-2'>Design modern, user-friendly interfaces with smooth interactions and animations. Focus on usability, accessibility, and engaging user experiences."</p>
+            <p className='mt-2'>Design modern, user-friendly interfaces with smooth interactions and animations. Focus on usability, accessibility, and engaging user experiences.</p>
           </div>
         </ElectricBorder>
 
@@ -72,7 +71,7 @@ export default function Example() {
           chaos={0.12}
           thickness={2}
           style={{ borderRadius: 16, height: '300px' }}
-          className="flex flex-col items-center justify-center p-6"
+          className="flex flex-col items-center justify-center p-6 transition-transform transform hover:scale-105"
         >
           <div className='w-full h-full text-center'>
             <img src={bold} style={{ margin: 'auto' }} className='w-24 h-24' alt="" />
@@ -83,7 +82,6 @@ export default function Example() {
           </div>
         </ElectricBorder>
       </div>
-
     </div>
   )
 }
