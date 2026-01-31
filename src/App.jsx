@@ -1,5 +1,5 @@
 import Silk from './Silk';
-import logo from './assets/_.svg';
+import logo from 'src/assets/_.svg';
 import PillNav from './PillNav';
 import TextType from './TextType';
 import AboutSection from "./AboutSection";
