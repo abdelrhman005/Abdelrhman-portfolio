@@ -2,9 +2,9 @@ import foodloverimg from './img/reastarunt_hero.png';
 import abexyimg  from './img/Apexy_Landin_Page.png';
 import calmnestimg from './img/CalmNestImg.png';
 
-export default function Example() {
+export default function ProjectSection({ id }) {
     return (
-        <div className="relative isolate m-0 overflow-hidden bg-gray-900 px-6 py-24  lg:py-20 sm:py-32 lg:px-8">
+        <div id={id} className="relative isolate m-0 overflow-hidden bg-gray-900 px-6 py-24  lg:py-20 sm:py-32 lg:px-8">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"

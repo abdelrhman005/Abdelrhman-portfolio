@@ -1,18 +1,20 @@
 import Silk from './Silk';
-import logo from 'src/assets/_.svg';
+import logo from './assets/_.svg';
 import PillNav from './PillNav';
 import TextType from './TextType';
 import AboutSection from "./AboutSection";
 import ProjectSection from "./ProjectSection";
-import Certficatesection from "./certificate";
-import ContactSection from "./contactSection";
+import Certficatesection from "./Certificate";
+import ContactSection from "./Contactsection";
 import Footer from "./footer";
+import BackToTop from "./BackToTop";
 
 
 
 const App = () => {
   return (
     <>
+      <BackToTop />
       <div className="w-full flex justify-center items-center">
         <PillNav
           logo={logo}

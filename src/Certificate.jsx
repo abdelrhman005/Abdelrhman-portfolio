@@ -1,11 +1,11 @@
 import metacertficate from './img/metaFrontEnd.png';
 import Cs50X from './img/CS50x.png';
-import freecodecamp from './img/freeCodeCamp.png';
+import freecodecamp from './img/FreeCodeCamp.png';
 import CicoCpp from './img/cicoCpp.png';
 import CicoPy from './img/pyCico.png';
-export default function certficateSection() {
+export default function CertificateSection({ id }) {
     return (
-        <div className="relative isolate m-0 overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-indigo-950 px-6 py-24 lg:py-20 sm:py-32 lg:px-8">
+        <div id={id} className="relative isolate m-0 overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-indigo-950 px-6 py-24 lg:py-20 sm:py-32 lg:px-8">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"

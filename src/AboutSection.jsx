@@ -5,9 +5,9 @@ import bold from './assets/bold.svg';
 
 
 
-export default function Example() {
+export default function AboutSection({ id }) {
   return (
-    <div className="relative isolate h-auto overflow-hidden bg-gray-900 px-6 py-20 lg:py-10 sm:py-32 lg:px-8">
+    <div id={id} className="relative isolate h-auto overflow-hidden bg-gray-900 px-6 py-20 lg:py-10 sm:py-32 lg:px-8">
       <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
         <div
           style={{

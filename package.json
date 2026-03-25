@@ -13,8 +13,10 @@
     "deploy": "gh-pages -d dist -f"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@heroicons/react": "^2.2.0",
     "@react-three/fiber": "^9.5.0",
+    "@tailwindcss/vite": "^4.2.2",
     "gsap": "^3.14.2",
     "postprocessing": "^6.38.2",
     "react": "^19.2.0",
