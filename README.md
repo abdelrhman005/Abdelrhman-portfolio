@@ -60,7 +60,7 @@ A high-performance, visually stunning, and fully responsive developer portfolio 
 
 
 ## 🔗 Live Demo
-Check out the live project here: [Placeholder Link](https://abdelrhman005.github.io/Abdelrhman-portfolio/)
+Check out the live project here: [Click Here](https://abdelrhman005.github.io/Abdelrhman-portfolio/)
 
 ---
 
