@@ -4,7 +4,7 @@ A high-performance, visually stunning, and fully responsive developer portfolio 
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Technologies Used](#-technologies-used)
 - [Key Features](#-key-features)
 - [Screenshots](#-screenshots)
@@ -12,12 +12,10 @@ A high-performance, visually stunning, and fully responsive developer portfolio 
 - [Installation / Setup Instructions](#-installation--setup-instructions)
 - [Deployment](#-deployment)
 - [Code Structure](#-code-structure)
-- [Challenges & Solutions](#-challenges--solutions)
-- [Credits](#-credits)
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Frontend Framework**: [React 18](https://reactjs.org/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -28,7 +26,7 @@ A high-performance, visually stunning, and fully responsive developer portfolio 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - **Premium UI/UX**: Dark mode aesthetic with glassmorphism effects and custom cyan glow highlights.
 - **GSAP Animations**: Smooth, high-performance animations including a smart "Back-to-Top" button.
 - **Advanced Form Validation**: Custom client-side validation logic with real-time feedback (validate-on-blur) and visual error/success indicators.
