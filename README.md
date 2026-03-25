@@ -24,6 +24,7 @@ A high-performance, visually stunning, and fully responsive developer portfolio 
 - **Animations**: [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
 - **Form Handling**: [@formspree/react](https://formspree.io/)
 - **Code Logic**: Javascript (ES6+)
+- **UI Animations**: React Bits
 
 ---
 
